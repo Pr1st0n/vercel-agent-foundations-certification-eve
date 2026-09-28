@@ -1,5 +1,5 @@
 const BASE_URL = process.env.API_BASE_URL;
-const BYPASS_TOKEN = process.env.BYPASS_SECRET;
+const BYPASS_TOKEN = process.env.BYPASS_SECRET ?? "";
 
 type Params = Record<string, string | number | undefined>;
 
